@@ -637,3 +637,37 @@
 .join {
     margin-left: 69px;
 }
+
+/*Форма подписки*/
+.do-it {
+    display: block;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+}
+.button-ftr {
+    background-color:#2196F3;
+    color: #FFFFFF;
+    width: 200;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 62px 10px 29px;
+    margin-left: 12px;
+}
+.ftr-input input {
+    border-radius: 3px;
+    /* display: block; */
+    width: 358px;
+    height: 50px;
+    background-color: #2F303A;
+}
+.ftr-input {
+    display: flex;
+}
+
+.test-flex {
+    display: inline-table;
+    margin-left: 94px;
+}
