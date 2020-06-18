@@ -140,7 +140,7 @@
 
 .social-list {
     margin-bottom: 34px;
-    margin-right: 36px;
+    /* margin-right: 36px; */
 }
 
 .hover-social:hover {
@@ -645,6 +645,7 @@
     color: #FFFFFF;
     padding: 0;
     margin: 0;
+    margin-bottom: 20px;
 }
 .button-ftr {
     background-color:#2196F3;
@@ -670,4 +671,5 @@
 .test-flex {
     display: inline-table;
     margin-left: 94px;
+    
 }
