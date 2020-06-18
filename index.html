@@ -52,7 +52,18 @@
         <h1 class="hero-title">
           эффективные решения<br /> для вашего бизнеса
         </h1>
-        <a href="" class="hero-button">Заказать услугу</a>
+        <button class="hero-button" data-modal-open>Заказать услугу</button>
+        <!-- <a href="" class="hero-button">Заказать услугу</a> -->
+        <div class="backdrop is-hidden" data-modal>
+          <div class="modal">
+            <form class="callback-form">
+              <b class="callback-form__header">
+                Оставьте свои данные, мы вам перезвоним
+              </b>
+              <button class="close-button__icon"></button>
+            </form>
+          </div>
+        </div>
       </div>
     </section>
     <!-- Заглавие которое я не смог придумать, но оно потом будет скрыто -->
@@ -317,13 +328,16 @@
       <div class="test-flex">
         <p class="do-it">Подпишитесь на рассылку</p>
         <form class="js-speaker-form ftr-input">
-          <input type="mail" name="mail" id="mail">
+          <input type="mail" name="mail" id="mail" placeholder="E-mail">
           <button class="button-ftr" type="submit">Подписаться</button>
         </form>
       </div>
     </div>
     <!-- <p class="coop">2020 | Developed by Nebrat</p> -->
   </footer>
+
+  <!-- Ставим перед закрывающим тегом body -->
+  <script src="./js/modal.js"></script>
 </body>
 
 </html>
