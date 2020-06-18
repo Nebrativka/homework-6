@@ -581,8 +581,8 @@
 .footer {
     background-color: #2f303a;
     color: #ffffff;
-    padding-top: 48px;
-    padding-bottom: 88px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footer a {
@@ -658,18 +658,21 @@
     margin-left: 12px;
 }
 .ftr-input input {
-    border-radius: 3px;
-    /* display: block; */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
     width: 358px;
     height: 50px;
     background-color: #2F303A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+    
 }
 .ftr-input {
     display: flex;
+    
 }
-
 .test-flex {
     display: inline-table;
-    margin-left: 94px;
+    margin-left: 120px;
     
 }
