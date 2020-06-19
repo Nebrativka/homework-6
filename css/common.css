@@ -7,6 +7,8 @@
     --text-color-accent: #2196F3;
     /* Копирейт в футере rgba(255, 255, 255, 0.4) */
     --footer-copyright-color: rgba(255, 255, 255, 0.4);
+    /*Кубик*/
+    --animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
